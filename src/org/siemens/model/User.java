@@ -4,6 +4,7 @@ public class User {
 
 	private String name;
 	private int age;
+	private String dob;
 	
 	public User() {
 		super();
@@ -31,6 +32,15 @@ public class User {
 		this.age = age;
 	}
 
+	public int getDob(){
+		return dob;
+	}
+	
+	public void setDob(){
+		this.dob = dob;
+	}
+	
+	public 
 	@Override
 	public String toString() {
 		return "User [name=" + name + ", age=" + age + "]";
